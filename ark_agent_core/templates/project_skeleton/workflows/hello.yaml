@@ -1,0 +1,10 @@
+id: hello
+name: Hello World
+description: 測試 Workflow 引擎是否正常
+steps:
+  - id: greet
+    type: skill
+    skill: echo
+    params:
+      message: "Hello from ark-agent-core!"
+    output: greeting
