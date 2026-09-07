@@ -7,13 +7,7 @@
   "allowedTools": ["*"],
   "resources": [
     "file://../steering/**/*.md",
-    "skill://../skills/**/SKILL.md",
-    {
-      "type": "knowledgeBase",
-      "source": "file://./knowledge",
-      "name": "AdminKnowledge",
-      "description": "運維紀錄、部署 SOP、架構決策、成本追蹤"
-    }
+    "skill://../skills/**/SKILL.md"
   ],
   "welcomeMessage": "👑 Admin 就緒。服務管理、開發維護、團隊指揮 — 隨時可用。"
 }

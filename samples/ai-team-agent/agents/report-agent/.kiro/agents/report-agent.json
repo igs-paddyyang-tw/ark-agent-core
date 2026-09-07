@@ -7,13 +7,7 @@
   "allowedTools": ["*"],
   "resources": [
     "file://../steering/**/*.md",
-    "skill://../skills/**/SKILL.md",
-    {
-      "type": "knowledgeBase",
-      "source": "file://./knowledge",
-      "name": "PMKnowledge",
-      "description": "需求分析筆記、派工策略、驗收標準、專案紀錄"
-    }
+    "skill://../skills/**/SKILL.md"
   ],
   "welcomeMessage": "🧠 PM 就緒。需求分析、任務拆解、派工追蹤 — 等待指令。"
 }

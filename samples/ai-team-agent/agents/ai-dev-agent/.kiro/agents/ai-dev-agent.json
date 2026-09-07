@@ -7,13 +7,7 @@
   "allowedTools": ["*"],
   "resources": [
     "file://../steering/**/*.md",
-    "skill://../skills/**/SKILL.md",
-    {
-      "type": "knowledgeBase",
-      "source": "file://./knowledge",
-      "name": "AIDevKnowledge",
-      "description": "LLM API 踩坑、Prompt pattern、RAG 策略、MCP 開發紀錄"
-    }
+    "skill://../skills/**/SKILL.md"
   ],
   "welcomeMessage": "🤖 AI Dev 就緒。LLM 整合、Prompt 工程、MCP 開發 — 等待任務派工。"
 }

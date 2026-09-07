@@ -7,13 +7,7 @@
   "allowedTools": ["*"],
   "resources": [
     "file://../steering/**/*.md",
-    "skill://../skills/**/SKILL.md",
-    {
-      "type": "knowledgeBase",
-      "source": "file://./knowledge",
-      "name": "QAKnowledge",
-      "description": "Bug pattern、測試技巧、CI/CD 整合、品質標準"
-    }
+    "skill://../skills/**/SKILL.md"
   ],
   "welcomeMessage": "🧪 QA 就緒。測試、Code Review、品質把關 — 等待任務派工。"
 }
